@@ -1,6 +1,6 @@
 {
   "name": "ide-cpp",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "C++ and C language support for Atom-IDE",
   "keywords": [
     "c++",
