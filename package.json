@@ -1,0 +1,16 @@
+{
+  "name": "ide-cpp",
+  "version": "0.0.0",
+  "description": "C++ and C language support for Atom-IDE",
+  "keywords": [
+    "c++",
+    "c",
+    "ide",
+    "clangd"
+  ],
+  "repository": "https://github.com/thomasjo/atom-ide-cpp",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
