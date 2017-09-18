@@ -17,6 +17,25 @@
   "dependencies": {
     "atom-languageclient": "^0.6.3"
   },
+  "devDependencies": {
+    "snazzy": "^7.0.0",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": [
+      "afterEach",
+      "atom",
+      "beforeEach",
+      "describe",
+      "expect",
+      "it",
+      "jasmine",
+      "runs",
+      "spyOn",
+      "waitsFor",
+      "waitsForPromise"
+    ]
+  },
   "enhancedScopes": [
     "source.c",
     "source.cpp"
