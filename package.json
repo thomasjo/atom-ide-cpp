@@ -1,16 +1,68 @@
 {
   "name": "ide-cpp",
+  "main": "./lib/main",
   "version": "0.0.1",
   "description": "C++ and C language support for Atom-IDE",
+  "repository": "https://github.com/thomasjo/atom-ide-cpp",
+  "license": "MIT",
   "keywords": [
     "c++",
     "c",
     "ide",
     "clangd"
   ],
-  "repository": "https://github.com/thomasjo/atom-ide-cpp",
-  "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.21.0"
+  },
+  "dependencies": {
+    "atom-languageclient": "^0.6.3"
+  },
+  "enhancedScopes": [
+    "source.c",
+    "source.cpp"
+  ],
+  "consumedServices": {
+    "linter-indie": {
+      "versions": {
+        "2.0.0": "NA_consumeLinterV2"
+      }
+    },
+    "datatip": {
+      "versions": {
+        "0.1.0": "NA_consumeDatatip"
+      }
+    }
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+      }
+    },
+    "code-format.range": {
+      "versions": {
+        "0.1.0": "provideCodeFormat"
+      }
+    },
+    "code-highlight": {
+      "versions": {
+        "0.1.0": "provideCodeHighlight"
+      }
+    },
+    "definitions": {
+      "versions": {
+        "0.1.0": "NA_provideDefinitions"
+      }
+    },
+    "find-references": {
+      "versions": {
+        "0.1.0": "NA_provideFindReferences"
+      }
+    },
+    "outline-view": {
+      "versions": {
+        "0.1.0": "NA_provideOutlines"
+      }
+    }
   }
 }
