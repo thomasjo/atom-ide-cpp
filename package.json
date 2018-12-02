@@ -43,12 +43,12 @@
   "consumedServices": {
     "linter-indie": {
       "versions": {
-        "2.0.0": "NA_consumeLinterV2"
+        "2.0.0": "consumeLinterV2"
       }
     },
     "datatip": {
       "versions": {
-        "0.1.0": "NA_consumeDatatip"
+        "0.1.0": "consumeDatatip"
       }
     }
   },
@@ -56,6 +56,11 @@
     "autocomplete.provider": {
       "versions": {
         "2.0.0": "provideAutocomplete"
+      }
+    },
+    "code-actions": {
+      "versions": {
+        "0.1.0": "provideCodeActions"
       }
     },
     "code-format.range": {
@@ -70,17 +75,22 @@
     },
     "definitions": {
       "versions": {
-        "0.1.0": "NA_provideDefinitions"
+        "0.1.0": "provideDefinitions"
       }
     },
     "find-references": {
       "versions": {
-        "0.1.0": "NA_provideFindReferences"
+        "0.1.0": "provideFindReferences"
+      }
+    },
+    "signature-help": {
+      "versions": {
+        "0.1.0": "provideSignatureHelp"
       }
     },
     "outline-view": {
       "versions": {
-        "0.1.0": "NA_provideOutlines"
+        "0.1.0": "provideOutlines"
       }
     }
   },
